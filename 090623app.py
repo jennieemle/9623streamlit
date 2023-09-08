@@ -13,4 +13,4 @@ st.title("Making a Button")
 result = st.button('click')
 st.write(result)
 if result:
-    st.write(': smile')
+    st.write('message : 버튼이 클릭되었습니다.')
