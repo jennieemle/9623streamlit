@@ -8,3 +8,9 @@ st.bar_chart(view)
 import pandas as pd
 sview = pd.Series(view)
 sview
+
+st.title("Making a Button")
+result = st.button('click')
+st.write(result)
+if result:
+    st.write(': smile')
