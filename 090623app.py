@@ -14,3 +14,9 @@ result = st.button('click')
 st.write(result)
 if result:
     st.write('message : 버튼이 클릭되었습니다.')
+
+st.button("Reset", type="primary")
+if st.button('click'):
+    st.write('message : 버튼을 클릭하셨습니다.')
+else:
+    st.write('clear')
