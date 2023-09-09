@@ -9,7 +9,7 @@ import pandas as pd
 sview = pd.Series(view)
 sview
 
-st.title = st.text_input('A Radio Button Widget')
+st.write('## Radio Button Widget')
 genre = st.radio(
     '시간단위',
     [':rainbow[일봉]', '***주봉***', '월봉 :full_moon:'],
