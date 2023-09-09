@@ -19,5 +19,5 @@ if genre == ':rainbow[일봉]':
     st.write('You selected 일봉')
 elif genre == '***주봉***':
     st.write('You selected 주봉')
-else  genre == '월봉 :full_moon':
+else :
     st.write('You selected 월봉')
