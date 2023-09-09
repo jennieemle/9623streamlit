@@ -31,5 +31,5 @@ if result:
     st.write('message : simple_button이 클릭되었습니다.')
 
 st.title("Text input : st.text_input")
-title = st.text_input('종목코드', '입력하세요.')
+title = st.text_input('종목코드')
 st.write('현재 종목코드 :  ', title)
