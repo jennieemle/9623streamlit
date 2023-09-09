@@ -17,7 +17,7 @@ genre = st.radio(
 
 if genre == ':rainbow[일봉]':
     st.write('You selected 일봉')
-elif genre == '주봉':
+elif genre == '***주봉***':
     st.write('You selected 주봉')
 else :
     st.write('You selected 월봉')
