@@ -26,6 +26,6 @@ if result:
     st.write('message : 버튼3이 클릭되었습니다.')
 
 st.title("Simple Button")
-result = st.button('simple button')
+result = st.button('simple_button')
 if result:
-    st.write('message : simple button이 클릭되었습니다.')
+    st.write('message : simple_button이 클릭되었습니다.')
