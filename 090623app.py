@@ -9,32 +9,6 @@ import pandas as pd
 sview = pd.Series(view)
 sview
 
-import streamlit as st
-st.title("Making a Button")
-result = st.button('click')
-st.write(result)
-if result:
-    st.write('message : 버튼이 클릭되었습니다.')
-
-st.button("Reset", type="primary")
-if st.button('Hi'):
-    st.write('message : 버튼을 클릭하셨습니다.')
-else:
-    st.write('clear')
-
-result = st.button('버튼3')
-if result:
-    st.write('message : 버튼3이 클릭되었습니다.')
-
-st.title("Simple Button")
-result = st.button('simple_button')
-if result:
-    st.write('message : simple_button이 클릭되었습니다.')
-
-st.title("Text input : st.text_input")
-title = st.text_input('종목코드')
-st.write('현재 종목코드 : ', title)
-
 st.title = st.text_input('A Radio Button Widget')
 genre = st.radio(
     '시간단위',
