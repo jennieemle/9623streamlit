@@ -33,3 +33,7 @@ if result:
 st.title("Text input : st.text_input")
 title = st.text_input('종목코드', '종목코드를 입력하세요.')
 st.write('현재 종목코드는 ', title)
+
+st.title("Text input2)
+title = st.text_input('종목코드')
+st.write('현재 종목코드는 ', title)
