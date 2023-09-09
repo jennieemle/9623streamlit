@@ -32,4 +32,4 @@ if result:
 
 st.title("Text input : st.text_input")
 title = st.text_input('종목코드')
-st.write('현재 종목코드 :  ', title)
+st.write('현재 종목코드 : ', title)
