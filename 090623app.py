@@ -33,3 +33,16 @@ if result:
 st.title("Text input : st.text_input")
 title = st.text_input('종목코드')
 st.write('현재 종목코드 : ', title)
+
+st.title = st.text_input('A Radio Button Widget')
+genre = st.radio(
+    '시간단위',
+    [':rainbow[일봉]', '***주봉***', '월봉 :full_moon:'],
+    captions = ['1일 주가를 하나의 막대기로 담은것', '1주일 주가를 하나의 막대기로 담은것', '1달 주가를 하나의 막대기로 담은것'])
+
+if genre == ':rainbow[일봉]':
+    st.write('You selected 일봉')
+elif genre == '주봉':
+    st.write('You selected 주봉')
+else :
+    st.write('You selected 월봉')
