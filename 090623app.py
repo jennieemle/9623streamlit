@@ -37,7 +37,7 @@ hide_streamlit_style = """
             #MainMenu {visibility: hidden;}
             header {visibility: hidden;}
             footer {visibility: hidden;}
-            .styles_terminalButton_JBj5T {display: none;}
+            manage-app-button {display: none;}
             </style>
             """
 st.markdown(hide_streamlit_style, unsafe_allow_html=True) 
