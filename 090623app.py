@@ -41,6 +41,8 @@ hide_streamlit_style = """
             header {visibility: hidden;}
             footer {visibility: hidden;}
             #manage-app-button {visibility: hidden;}
+            manage-app-button {visibility: hidden;}
+            styles_terminalButton__JBj5T {visibility: hidden;}
             svg {visibility: hidden;}
             </style>
             """
