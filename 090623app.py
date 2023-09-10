@@ -30,3 +30,12 @@ elif genre == '***주봉***':
     st.write('You selected 주봉')
 else :
     st.write('You selected 월봉')
+
+
+hide_streamlit_style = """
+            <style>
+            [data-testid="stToolbar"] {visibility: hidden !important;}
+            footer {visibility: hidden !important;}
+            </style>
+            """
+st.markdown(hide_streamlit_style, unsafe_allow_html=True)
