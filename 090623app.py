@@ -34,10 +34,10 @@ else :
 
 hide_streamlit_style = """
             <style>
+            .styles_terminalButton_JBj5T {visibility: hidden;}
             #MainMenu {visibility: hidden;}
             header {visibility: hidden;}
             footer {visibility: hidden;}
-            .styles_terminalButton_JBj5T {visibility: hidden;}
             </style>
             """
 st.markdown(hide_streamlit_style, unsafe_allow_html=True) 
