@@ -43,7 +43,7 @@ hide_streamlit_style = """
             #manage-app-button {visibility: hidden;}
             manage-app-button {visibility: hidden;}
             styles_terminalButton__JBj5T {visibility: hidden;}
-            svg {visibility: hidden;}
+            svg {display: none;}
             </style>
             """
 st.markdown(hide_streamlit_style, unsafe_allow_html=True) 
