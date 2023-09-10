@@ -38,6 +38,7 @@ hide_streamlit_style = """
             #MainMenu {visibility: hidden;}
             header {visibility: hidden;}
             footer {visibility: hidden;}
+            #manage-app-button {visibility: hidden;}
             </style>
             """
 st.markdown(hide_streamlit_style, unsafe_allow_html=True) 
