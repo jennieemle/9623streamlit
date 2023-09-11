@@ -37,7 +37,7 @@ hide_streamlit_style = """
             #MainMenu {visibility: hidden;}
             header {visibility: hidden;}
             footer {visibility: hidden;}
-             svg {display: none;}
+            svg {display: none;}
             </style>
             """
 st.markdown(hide_streamlit_style, unsafe_allow_html=True) 
