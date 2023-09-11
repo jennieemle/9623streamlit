@@ -34,11 +34,9 @@ else :
 
 hide_streamlit_style = """
             <style>
-            .styles_terminalButton__JBj5T {display: none;}
             #MainMenu {visibility: hidden;}
             header {visibility: hidden;}
             footer {visibility: hidden;}
-            #manage-app-button {visibility: hidden;}
             svg {display: none;}
             </style>
             """
