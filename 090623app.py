@@ -9,7 +9,7 @@ import pandas as pd
 sview = pd.Series(view)
 sview
 
-st.write("## Simple Button")
+st.write("## Button")
 st.button("Reset", type="primary")
 if st.button('Hi'):
     st.write('message : 버튼을 클릭하셨습니다.')
