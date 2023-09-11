@@ -9,6 +9,11 @@ import pandas as pd
 sview = pd.Series(view)
 sview
 
+st.title("Simple Button")
+result = st.button('simple_button')
+if result:
+    st.write('message : simple_button이 클릭되었습니다.')
+
 st.write("## Simple Button")
 result = st.button('simple_button')
 if result:
