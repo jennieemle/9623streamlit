@@ -10,9 +10,11 @@ sview = pd.Series(view)
 sview
 
 st.write("## Simple Button")
-result = st.button('click')
-if result:
-    st.write('message : 버튼이 클릭되었습니다.')
+st.button("Reset", type="primary")
+if st.button('Hi'):
+    st.write('message : 버튼을 클릭하셨습니다.')
+else:
+    st.write('clear')
 
 st.write("## text input")
 title = st.text_input('종목코드')
