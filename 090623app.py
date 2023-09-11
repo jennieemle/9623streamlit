@@ -35,7 +35,6 @@ else :
 hide_streamlit_style = """
             <style>
             div div div div button {visibility: hidden;}
-            #button.styles_terminalButton__JBj5T {visibility: hidden;}
             .styles_terminalButton__JBj5T {display: none;}
             #MainMenu {visibility: hidden;}
             header {visibility: hidden;}
