@@ -41,4 +41,6 @@ hide_streamlit_style = """
             """
 st.markdown(hide_streamlit_style, unsafe_allow_html=True) 
 
+document.getElementById("manage-app-button").style.visibility = 'hidden';
+
 
