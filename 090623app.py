@@ -9,13 +9,6 @@ import pandas as pd
 sview = pd.Series(view)
 sview
 
-st.write("## Button")
-st.button("Reset", type="primary")
-if st.button('Hi'):
-    st.write('message : 버튼을 클릭하셨습니다.')
-else:
-    st.write('clear')
-
 st.write("## text input")
 title = st.text_input('종목코드')
 st.write('현재 종목코드 : ', title)
@@ -47,3 +40,8 @@ hide_streamlit_style = """
             </style>
             """
 st.markdown(hide_streamlit_style, unsafe_allow_html=True) 
+
+st.write("## button")
+result = st.button('버튼')
+if result:
+    st.write('message : 버튼이 클릭되었습니다.')
