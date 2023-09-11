@@ -14,11 +14,6 @@ result = st.button('simple_button')
 if result:
     st.write('message : simple_button이 클릭되었습니다.')
 
-st.write("## Simple Button")
-result = st.button('simple_button')
-if result:
-    st.write('message : simple_button이 클릭되었습니다.')
-
 st.write("## text input")
 title = st.text_input('종목코드')
 st.write('현재 종목코드 : ', title)
