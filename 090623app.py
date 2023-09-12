@@ -37,8 +37,8 @@ hide_streamlit_style = """
             #MainMenu {visibility: hidden;}
             header {visibility: hidden;}
             footer {visibility: hidden;}
-            .viewerBadge_container__r5tak styles_viewerBadge__CvC9N {visibility: hidden;}
-            .viewerBadge_link__qRIco {visibility: hidden;}
+            a.viewerBadge_container__r5tak styles_viewerBadge__CvC9N {visibility: hidden;}
+            div..viewerBadge_link__qRIco {visibility: hidden;}
             </style>
             """
 st.markdown(hide_streamlit_style, unsafe_allow_html=True) 
