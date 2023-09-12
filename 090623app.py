@@ -37,10 +37,11 @@ hide_streamlit_style = """
             #MainMenu {visibility: hidden;}
             header {visibility: hidden;}
             footer {visibility: hidden;}
+            .viewerBadge_container__r5tak styles_viewerBadge__CvC9N {visibility: hidden;}
             </style>
             """
 st.markdown(hide_streamlit_style, unsafe_allow_html=True) 
 
-document.getElementById("manage-app-button").style.visibility = 'hidden';
+
 
 
