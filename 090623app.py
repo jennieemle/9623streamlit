@@ -43,7 +43,7 @@ hide_streamlit_style = """
             """
 st.markdown(hide_streamlit_style, unsafe_allow_html=True) 
 
-video_file = open('1ba191623.mp4', 'rb')
+video_file = open('yoga213.mp4', 'rb')
 video_bytes = video_file.read()
 st.video(video_bytes)
 
